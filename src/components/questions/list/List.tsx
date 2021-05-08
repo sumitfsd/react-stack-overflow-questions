@@ -11,14 +11,14 @@ const List = () => {
   const [page, setPage] = React.useState<number>(1);
   const [isOpen, setIsOpen] = React.useState<boolean>(false);
   const [openQuestion, setOpenQuestion] = React.useState<QuestionProps>();
-  const scrollContainer = React.useRef(null);
+  const scrollContainer = React.useRef<HTMLDivElement>(null);
 
   const getQuestions = async (pageNumber: number) => {
     const params: object = {
       site: "stackoverflow.com",
       q: "react.js",
       pageSize: 10,
-      page: pageNumber
+      page: pageNumber,
     };
     const res = await getQuestionsRequest(params);
     if (res.data && res.data.items) {
@@ -86,7 +86,7 @@ const List = () => {
                 title: question.title,
                 author: question.owner.display_name,
                 created: question.creation_date,
-                link: question.link
+                link: question.link,
               }}
               openPopup={openPopup}
             />

@@ -1,5 +1,5 @@
 {
-  "name": "react-typescript",
+  "name": "react-stack-overflow-questions",
   "version": "1.0.0",
   "description": "React and TypeScript example starter project",
   "keywords": [
@@ -9,17 +9,19 @@
   ],
   "main": "src/index.tsx",
   "dependencies": {
-    "axios": "0.21.1",
-    "moment": "2.29.1",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-scripts": "4.0.0"
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "axios": "^0.21.1",
+    "moment": "^2.29.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
   },
   "devDependencies": {
-    "@types/react": "17.0.0",
-    "@types/react-dom": "17.0.0",
-    "gh-pages": "^3.1.0",
-    "typescript": "4.1.3"
+    "gh-pages": "^3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,5 +37,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "http://sumitfsd-deqode.github.io/react-stack-overflow-questions"
+  "homepage": "http://sumitfsd.github.io/react-stack-overflow-questions"
 }
