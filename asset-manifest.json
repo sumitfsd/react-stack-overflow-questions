@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-stack-overflow-questions/static/css/main.a9b01ffd.chunk.css",
+    "main.js": "/react-stack-overflow-questions/static/js/main.1912950f.chunk.js",
+    "main.js.map": "/react-stack-overflow-questions/static/js/main.1912950f.chunk.js.map",
+    "runtime-main.js": "/react-stack-overflow-questions/static/js/runtime-main.085d446c.js",
+    "runtime-main.js.map": "/react-stack-overflow-questions/static/js/runtime-main.085d446c.js.map",
+    "static/js/2.049395aa.chunk.js": "/react-stack-overflow-questions/static/js/2.049395aa.chunk.js",
+    "static/js/2.049395aa.chunk.js.map": "/react-stack-overflow-questions/static/js/2.049395aa.chunk.js.map",
+    "index.html": "/react-stack-overflow-questions/index.html",
+    "static/css/main.a9b01ffd.chunk.css.map": "/react-stack-overflow-questions/static/css/main.a9b01ffd.chunk.css.map",
+    "static/js/2.049395aa.chunk.js.LICENSE.txt": "/react-stack-overflow-questions/static/js/2.049395aa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.085d446c.js",
+    "static/js/2.049395aa.chunk.js",
+    "static/css/main.a9b01ffd.chunk.css",
+    "static/js/main.1912950f.chunk.js"
+  ]
+}
